@@ -1,0 +1,24 @@
+Task #4 {Submit in the week starting 13th April}
+
+In the lecture you saw the the 2 ATM case-study
+Now, you are asked to develop a program to simulate the 3 ATM case study (multi-server queuing model). 
+
+Required statistics:
+Average waiting time
+Probability of waiting 
+Probability of waiting more than 1 minute
+Maximum waiting time
+Utilization of the first ATM machine
+Utilization of the second ATM machine
+Utilization of the third ATM machine
+
+In this case, you have the following assumptions:
+3 ATM machines (i.e. 3 servers)
+A single queue for all 3 serves
+Inter-arrival time follows an exponential distribution (mean = 1 minute).
+Service time of the first ATM machine: uniform distribution (minimum value = 2 minutes & maximum value = 4 minutes).
+Service time of the second ATM machine: triangular distribution (a = 2 minutes, b = 4 minutes & c =3.3 minutes).
+Service time of the third ATM machine: normal distribution (mean = 3 minutes, standard deviation = 0.5 minutes).
+Run the model for 1 million customers.
+
+Good Luck
